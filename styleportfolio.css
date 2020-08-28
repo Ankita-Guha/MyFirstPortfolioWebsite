@@ -1,0 +1,308 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    
+} 
+
+a{ text-decoration: none; 
+    background-color: transparent;
+    color:#ededed; 
+}
+
+.header{
+   background-color:#000; 
+      color:#fff; 
+    border-color: #080808; 
+    min-height: 50px; 
+    border: 1px solid transparent;
+    
+}
+.inner-header{
+    width:80%;
+    margin:auto;
+
+  
+}
+.inner-header .header-link a{
+    color: white;
+}
+.logo{
+    float: left; 
+    height: 50px;
+    padding: 15px ;
+    font-size: 18px; 
+    font-weight: bold;
+    color: white;
+}
+.header-link{
+   float:right; 
+    font-size:16px; 
+    height: 50px;
+    padding: 15px 15px;
+    
+    font-weight: bold;
+}
+.content{
+    min-height: 600px;
+      font-family: sans-serif;
+}
+.background-image{
+    padding-bottom: 165px;
+    padding-top: 100px;
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #f8f8f8;
+    background: url(Best-Web-Agencies-in-2018.jpg) no-repeat center ;
+    background-size: cover;
+    margin-top: none;
+}
+
+
+.content-img{
+    
+   background-color: rgba(0,0,0,0.7);
+    max-width: 600px;
+    max-height: 350px;
+    padding: 65px 75px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 50px;
+}
+  
+
+
+.button a{
+    color: white;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    padding: 20px 30px ;
+    font-size: 15px; 
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+        cursor: pointer;
+    
+}
+.button a:hover{
+       color: white;
+    background: red;
+    border-color: red;
+    
+}
+
+.info li{
+     width: 49.5%;
+    display: inline-block;
+    margin-bottom: 15px;
+  
+        
+}
+.info li .title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ac2925;
+}
+.info li .value{
+    font-size: 13px;
+}
+#about{
+    background: white;
+    font-family: cursive;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 101px;
+    
+}
+.fa-play{
+    font-size: 100px;
+}
+#about .p-first{
+    margin-bottom: 30px;
+}
+#about h2{
+    margin-bottom: 47px;
+    margin-top: 12px;
+    color:  #ac2925;
+}
+
+#about .about_link{
+    padding-left: 0px;
+    
+}
+#about .about_link li{
+    display: inline-block;
+}
+#about .about_link li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+    transition: all .3s;
+}
+#about .about_link li a i:hover{
+    color: white;
+    background: black;
+    border-color: black;
+}
+
+.contact-form{
+   
+    width: 80%;
+    max-width:6000px;
+  
+    
+   position: absolute;
+    top: 262%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 80px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color:  #ac2925;
+}
+.txtb{
+    border: 1px solid #f8f8f8;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color:  #ac2925;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.txtb input,.txtb textarea{
+    width:100%;
+      border: 1px solid  gray;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 6px;
+    
+}
+@media(max-width:768px){
+    
+    .contact-form{
+   
+    width: 80%;
+    max-width:600px;
+  
+    
+   position: absolute;
+    top: 380%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 80px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color:  #ac2925;
+}
+.txtb{
+    border: 1px solid #f8f8f8;
+    margin: 8px 0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input,.txtb textarea{
+    width:100%;
+     border: 1px solid #000;
+    background: none;
+    outline: none;
+    font-size: 12px;
+    margin-top: 6px;
+    }
+    
+.header{
+   background-color:#000; 
+      color:#fff; 
+    border-color: #080808; 
+    min-height: 50px; 
+    border: 1px solid transparent;
+    font-size: 10px;
+}
+    .inner-header{
+    width:100%;
+    margin:auto;
+
+  
+}
+.inner-header .header-link a{
+    color: white;
+}
+    #about .about_link li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-right: 40px;
+       
+    font-size: 22px;
+    color: black;
+    transition: all .3s;
+       
+}
+#about .about_link li a i:hover{
+    color: white;
+    background: black;
+    border-color: black;
+     
+}
+    .info li{
+     width: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+  /*** font-size: 13px;***/
+    
+        
+}
+    .info li .title{
+        font-size: 15px;
+        color: #ac2925;
+        font-weight:bold;
+    }
+    .info li .value{
+        font-size: 12px;
+    }
+
+}
+
+
+
